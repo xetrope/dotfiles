@@ -17,3 +17,5 @@ brew cask install screenflow4
 brew cask install slack
 brew cask install vlc
 brew cask install gpgtools
+brew cask install skype
+brew cask install teamviewer

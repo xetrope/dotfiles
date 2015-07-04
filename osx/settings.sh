@@ -508,7 +508,7 @@ defaults write com.apple.dock no-bouncing -bool true
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Safari" "SystemUIServer" "Terminal"; do
+for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Safari" "SystemUIServer"; do
     killall "${app}" > /dev/null 2>&1
 done
 success '- Done. Note that some of these changes require a logout/restart to take effect.'
