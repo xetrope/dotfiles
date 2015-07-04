@@ -23,6 +23,9 @@ bash spectacle/settings.sh
 # Install Ruby
 bash ruby/install.sh
 
+# Install NodeJS
+bash node/install.sh
+
 # Install PHPBrew
 bash php/install.sh
 
@@ -41,6 +44,6 @@ printf "\r"
 if [[ $choice =~ ^[Yy]$ ]]
 then
 	info '- Installing Oh My Zsh'
-	
+
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
