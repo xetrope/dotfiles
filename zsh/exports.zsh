@@ -8,5 +8,6 @@ export MANPAGER="less -X"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 
-export PATH=$PATH:~/.rvm/bin
-export PATH=$PATH:~/.composer/vendor/bin
+export PATH="$HOME/.node/bin:$PATH"
+export PATH="$HOME/.rvm/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
